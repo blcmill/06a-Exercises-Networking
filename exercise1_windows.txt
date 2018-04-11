@@ -16,7 +16,9 @@ If you run into trouble, Google is your friend; there should be a lot of availab
 ----------------------------------
 hostname
 
+Lenovo-PC
 
+name of the host computer
 
 
 ----------------------------------
@@ -25,10 +27,131 @@ netstat
 
 
 
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:57391        Lenovo-PC:57392        ESTABLISHED
+  TCP    127.0.0.1:57392        Lenovo-PC:57391        ESTABLISHED
+  TCP    127.0.0.1:57395        Lenovo-PC:57396        ESTABLISHED
+  TCP    127.0.0.1:57396        Lenovo-PC:57395        ESTABLISHED
+  TCP    127.0.0.1:57420        Lenovo-PC:57421        ESTABLISHED
+  TCP    127.0.0.1:57421        Lenovo-PC:57420        ESTABLISHED
+  TCP    127.0.0.1:57635        Lenovo-PC:57636        ESTABLISHED
+  TCP    127.0.0.1:57636        Lenovo-PC:57635        ESTABLISHED
+  TCP    127.0.0.1:57644        Lenovo-PC:57645        ESTABLISHED
+  TCP    127.0.0.1:57645        Lenovo-PC:57644        ESTABLISHED
+  TCP    127.0.0.1:57693        Lenovo-PC:57694        ESTABLISHED
+  TCP    127.0.0.1:57694        Lenovo-PC:57693        ESTABLISHED
+  TCP    149.160.175.192:56880  ec2-34-234-178-230:https  ESTABLISHED
+  TCP    149.160.175.192:56882  ec2-52-202-231-161:https  ESTABLISHED
+
+lists all active connections
+
 ----------------------------------
 ipconfig /all
 
 
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Lenovo-PC
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : indiana.edu
+
+Wireless LAN adapter Wireless Network Connection 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter #
+2
+   Physical Address. . . . . . . . . : 36-02-86-20-5D-91
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wireless Network Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Virtual WiFi Miniport Adapter
+   Physical Address. . . . . . . . . : 36-02-86-20-5D-92
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wireless Network Connection:
+
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 7265
+   Physical Address. . . . . . . . . : 34-02-86-20-5D-91
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:18e8:2:28b6:e477:68b2:3750:9e8a(Pref
+erred)
+   Temporary IPv6 Address. . . . . . : 2001:18e8:2:28b6:95e5:ff8c:504a:d235(Pref
+erred)
+   Link-local IPv6 Address . . . . . : fe80::e477:68b2:3750:9e8a%14(Preferred)
+   IPv4 Address. . . . . . . . . . . : 149.160.175.192(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.192.0
+   Lease Obtained. . . . . . . . . . : Tuesday, April 10, 2018 11:33:07 AM
+   Lease Expires . . . . . . . . . . : Tuesday, April 10, 2018 1:22:00 PM
+   Default Gateway . . . . . . . . . : fe80::18e8:2:28b6:1%14
+                                       149.160.128.1
+   DHCP Server . . . . . . . . . . . : 10.234.220.224
+   DNS Servers . . . . . . . . . . . : 10.79.1.1
+                                       10.234.220.20
+                                       10.79.1.2
+   Primary WINS Server . . . . . . . : 129.79.1.200
+   Secondary WINS Server . . . . . . : 129.79.5.200
+                                       134.68.220.14
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (3) I218-LM
+   Physical Address. . . . . . . . . : 50-7B-9D-C0-67-53
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{11178810-F3DE-466B-8155-A8AC62A69376}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{C2807531-F8D1-4C19-ACDD-1536073D1E0E}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #3
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.indiana.edu:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #4
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter Local Area Connection* 13:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+gives configuration for all parts of the host ip
 
 
 ----------------------------------
@@ -36,35 +159,110 @@ nslookup www.iub.edu
 
 
 
+C:\Users\Lenovo>nslookup www.iub.edu
+Server:  ns6.iu.edu
+Address:  10.79.1.1
+
+Name:    www.iub.edu
+Addresses:  129.79.78.185
+          129.79.78.186
+
+looks up the information for iub.edu
 
 ----------------------------------
 nslookup www.google.com
 
+C:\Users\Lenovo>nslookup www.google.com
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2607:f8b0:4009:816::2004
+          172.217.1.36
+
+looks up information for google's IP
 
 
 ----------------------------------
 ping www.iub.edu
 
+Pinging www.iub.edu [129.79.78.186] with 32 bytes of data:
+Reply from 129.79.78.186: bytes=32 time=2ms TTL=61
+Reply from 129.79.78.186: bytes=32 time=2ms TTL=61
+Reply from 129.79.78.186: bytes=32 time=2ms TTL=61
+Reply from 129.79.78.186: bytes=32 time=1ms TTL=61
 
+Ping statistics for 129.79.78.186:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 2ms, Average = 1ms
+
+gives response time to an IP in milliseconds; here it';s IUB.edu
 
 
 ----------------------------------
 ping www.google.com
 
+C:\Users\Lenovo>ping www.google.com
 
+Pinging www.google.com [2607:f8b0:4009:806::2004] with 32 bytes of data:
+Reply from 2607:f8b0:4009:806::2004: time=8ms
+Reply from 2607:f8b0:4009:806::2004: time=60ms
+Reply from 2607:f8b0:4009:806::2004: time=9ms
+Reply from 2607:f8b0:4009:806::2004: time=90ms
+
+Ping statistics for 2607:f8b0:4009:806::2004:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 90ms, Average = 41ms
+
+pings google.com, getting response times after 4 packets sent
 
 
 ----------------------------------
 tracert www.iub.edu
+Tracing route to www.iub.edu [129.79.78.186]
+over a maximum of 30 hops:
 
+  1     2 ms     1 ms     1 ms  149.160.128.2
+  2     3 ms     1 ms     1 ms  ae-15.0.br2.bldc.net.uits.iu.edu [134.68.3.74]
+  3     3 ms     2 ms     2 ms  ae-33.932.dcr3.bldc.net.uits.iu.edu [134.68.3.12
+9]
+  4     2 ms     2 ms     1 ms  zeus1-iub.gateway.indiana.edu [129.79.78.186]
+
+Trace complete.
+
+traces route to www.iub.edu via IP
 
 
 
 ----------------------------------
 tracert www.google.com
 
+C:\Users\Lenovo>tracert www.google.com
 
+Tracing route to www.google.com [2607:f8b0:4009:806::2004]
+over a maximum of 30 hops:
+
+  1     2 ms     1 ms     1 ms  ae-20.2230.cr5.bldc.net.uits.iu.edu [2001:18e8:2
+:28b6::2]
+  2     2 ms     1 ms     2 ms  ae-15.0.br2.bldc.net.uits.iu.edu [2001:18e8:3:f0
+16::2]
+  3     4 ms     3 ms     3 ms  2001:18e8:ff00:90::1
+  4     5 ms     4 ms     4 ms  2001:18e8:ff00:13::1
+  5    17 ms     8 ms     9 ms  2001:18e8:ffff:10::1
+  6     8 ms     9 ms     8 ms  2001:18e8:ffff:10::2
+  7     9 ms     8 ms     8 ms  google-peer-equinix.wiscnet.net [2001:4e0:0:310d
+::2]
+  8    10 ms     9 ms    10 ms  2001:4860:0:100f::1
+  9    12 ms    11 ms    14 ms  2001:4860:0:1::3e5
+ 10     9 ms     8 ms     8 ms  ord37s19-in-x04.1e100.net [2607:f8b0:4009:806::2
+004]
+
+Trace complete.
+
+traced the route to google.com, showing a more complex route than to iub.edu
 
 
 ----------------------------------
@@ -72,4 +270,6 @@ telnet esqsoft.com 80
 #once the program opens, type the following followed by a blank line:
 GET /examples/troubleshooting-http-using-telnet.htm HTTP/1.1
 host: esqsoft.com
+
+nothing occurs; telnet appears to not be working
 

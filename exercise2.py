@@ -20,9 +20,14 @@ def multiply(a, b):
 
 def divide(a, b):
 	"""
-	
-	
-	
+	>>> divide(12, 4)
+	3.0
+	>>> divide(0, 20)
+	0.0
+	>>> divide(20, 0)
+	"You can't divide by zero!"
+
+
 	"""
 	try:
 		return float(a) / float(b)
@@ -34,10 +39,15 @@ def divide(a, b):
 
 def check_proximity(xy1, xy2):
 	"""
-	
-	
-	
-	
+	>>> check_proximity((1,0),(0,1))
+	False
+	>>> check_proximity((1, 1), (0, 1))
+	True
+	>>> check_proximity((50, 50), (0, 0))
+	False
+
+
+
 	"""
 	if type(xy1) is not tuple or type(xy2) is not tuple: return False
 	if len(xy1) != 2 or len(xy2) != 2: return False
@@ -50,15 +60,19 @@ def check_proximity(xy1, xy2):
 
 def update(x,y,dx,dy,gravity,air_resistance,WIDTH,HEIGHT):
 	"""
-		
-		
-		
-		
+	>>> update(0,0,0,0, 9.8, 0, 5, 5)
+	(0, 0, 0, 0)
+	>>> update(10, 10, 0, 0, 9.8, 0, 5, 5)
+	(5, 5, 0, 9.8)
+
+
 	"""
 	dy = dy + gravity
 	dx *= (1.0-air_resistance)
 	dy *= (1.0-air_resistance)
-	
+
+	#friction is not defined so these don't work
+
 	if x >= WIDTH:
 		x = WIDTH
 		dx = dx * -1 * (1.0-friction)
