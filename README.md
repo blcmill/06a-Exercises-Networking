@@ -1,3 +1,5 @@
+# 05a-Exercises-Networking Blake Miller
+Here's my solutions to these exercises. I was unable to finish Exercise 03 in time. Hopefully the rest fulfill the requirements, but part of Exercise 02 did not function due to the function definition.
 # 05a-Exercises-Networking
 
 Here are some exercises to help you learn about TCP/IP networks. You will also have a chance to briefly explore doctest.
